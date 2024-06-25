@@ -1,0 +1,36 @@
+/* Mengubah warna sidebar menjadi hijau */
+.sidebar-item a {
+    color: #ffffff; /* Warna teks di sidebar */
+}
+
+.sidebar-item a:hover {
+    color: #ffffff; /* Warna teks saat hover di sidebar */
+    background-color: #4CAF50; /* Warna background saat hover di sidebar */
+}
+
+.sidebar-item a.active {
+    background-color: #4CAF50; /* Warna background item aktif di sidebar */
+}
+
+/* Mengubah warna navbar menjadi hijau */
+.navbar-bg {
+    background-color: #4CAF50; /* Warna background navbar */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff; /* Warna teks di navbar */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff; /* Warna teks saat hover di navbar */
+}
+
+/* Mengubah warna button menu menjadi hijau */
+#sidebarCollapse {
+    background-color: #4CAF50; /* Warna background button menu */
+    color: #ffffff; /* Warna teks button menu */
+}
+
+#sidebarCollapse:hover {
+    background-color: #45A049; /* Warna background saat hover di button menu */
+}
